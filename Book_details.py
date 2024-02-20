@@ -12,7 +12,6 @@ time.sleep(4)
 driver.find_element(By.XPATH,"//input[@placeholder='Password']").send_keys("Pritu@1234")
 time.sleep(4)
 driver.find_element(By.XPATH, "//a[@id='ctl00_phBody_SignIn_btnLogin']").click()
-//praveen
 time.sleep(5)
 driver.get('https://www.bookswagon.com/promo-best-seller/new-arrivals/99325F010C89')
 time.sleep(4)
